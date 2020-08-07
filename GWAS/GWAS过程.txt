@@ -1,0 +1,15 @@
+1、每一个loci有自己的SNP，Chr和Poshg_19
+2、对于每一个loci，从human gene表里面找出所有符合下列要求的基因
+1）chrom与loci的chr相同
+2）start_hg19或者end_hg19与loci的Pos_hg19距离小于1000000个单位
+3、把所属loci的情况加入到human gene表里面
+4、将所有有归属的gene情况合并，得到新的human gene表
+
+
+
+贝叶斯方法
+
+
+
+
+最终得到的是每一个loci的每一个候选基因的风险相关概率，共108个loci，1785个基因
